@@ -9,14 +9,15 @@
   <meta name="author" content="">
 
   <title>Marco Angel</title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
+    rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -24,6 +25,61 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
+
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -32,7 +88,9 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Marco Angel</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -60,7 +118,8 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Specialties: HTML5, CSS3, SCSS, JavaScript, Node.js, Express.js, MySQL, Handlebars.js, ReactJS, Visual Studio, CLI, Git, Bootstrap, jQuery, Mongoose, MySQL</p>
+          <p class="text-white-75 font-weight-light mb-5">Specialties: HTML5, CSS3, SCSS, JavaScript, Node.js,
+            Express.js, MySQL, Handlebars.js, ReactJS, Visual Studio, CLI, Git, Bootstrap, jQuery, Mongoose, MySQL</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
         </div>
       </div>
@@ -72,10 +131,10 @@
     <div class="container">
       <div class="row">
         <!-- Picture    -->
-          <div  class="col-lg-4">
-              <img class="img-fluid border border-secondary" src="img/portfolio/thumbnails/myself.900.5KB.jpg" alt="">
-          </div> 
-          <!-- end of picture    -->
+        <div class="col-lg-4">
+          <img class="img-fluid border border-secondary" src="img/portfolio/thumbnails/myself.900.5KB.jpg" alt="">
+        </div>
+        <!-- end of picture    -->
 
         <!-- Intro paragraph -->
         <div class="col-lg-8">
@@ -83,11 +142,16 @@
             <div class="col-lg-8 text-center">
               <h1 class="text-white mt-0">Marco Angel</h1>
               <hr class="divider light my-4">
-              <p class="text-white-50 mb-4">I am a dedicated website developer with specializations in Javascript, CSS and MERN Stack. I enjoy approaching programming challenges from different angles and learning about new technologies to resolve problems or improve upon existing methods. I'm passionate about collaborating with others to create meaningful web applications and maintaining a high standard of customer satisfaction.</p>
+              <p class="text-white-50 mb-4">I am a dedicated website developer with specializations in Javascript, CSS
+                and MERN Stack. I enjoy approaching programming challenges from different angles and learning about new
+                technologies to resolve problems or improve upon existing methods. I'm passionate about collaborating
+                with others to create meaningful web applications and maintaining a high standard of customer
+                satisfaction.</p>
               <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact Me!</a>
             </div>
           </div>
-        </div> <!--End of Paragraph-->
+        </div>
+        <!--End of Paragraph-->
       </div>
     </div>
   </section>
@@ -105,60 +169,52 @@
               <div class="project-name">
                 Burger
               </div>
-                    <div class="project-category text-white-50">
-                        Web application that updates a sql database with user’s input. The database update changes are immediately reflected on the page.
-                    </div>
+              <div class="project-category text-white-50">
+                Web application that updates a sql database with user’s input. The database update changes are
+                immediately reflected on the page.
+              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://still-peak-99865.herokuapp.com/">
-              <img class="img-fluid" src="img/portfolio/thumbnails/p2p.jpg" alt="Pet 2 Person">
-              <div class="portfolio-box-caption">
-                <div class="project-name">
-                  Pet 2 Person
-                </div>
-                      <div class="project-category text-white-50">
-                          A web application that allows the user to search for local pet shelters in order to find their ideal adoptive partner. 
-                      </div>
+          <a class="portfolio-box" href="https://still-peak-99865.herokuapp.com/">
+            <img class="img-fluid" src="img/portfolio/thumbnails/p2p.jpg" alt="Pet 2 Person">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Pet 2 Person
               </div>
-            </a>
+              <div class="project-category text-white-50">
+                A web application that allows the user to search for local pet shelters in order to find their ideal
+                adoptive partner.
+              </div>
+            </div>
+          </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          
+
           <a class="portfolio-box" href="https://fathomless-caverns-79872.herokuapp.com/">
             <img class="img-fluid" src="img/portfolio/thumbnails/friendApp.jpg" alt="Friend Finder">
             <div class="portfolio-box-caption">
               <div class="project-name">
                 Friend App
               </div>
-                    <div class="project-category text-white-50">
-                        A web application that uses survey results to pull the best-matched responses then populates profile pictures of other users. 
-                    </div>
+              <div class="project-category text-white-50">
+                A web application that uses survey results to pull the best-matched responses then populates profile
+                pictures of other users.
+              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <!-- <a class="portfolio-box" href="https://angel2367716.github.io/GifTastic/">
-            <img class="img-fluid" src="img/portfolio/thumbnails/giftastic.jpg" alt="Giftastic">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Giftastic
-              </div>
-            </div>
-          </a> -->
           <a class="portfolio-box" href="https://angel2367716.github.io/unit-4-game/">
             <img class="img-fluid" src="img/portfolio/thumbnails/crystal.jpg" alt="Crystal Game">
             <div class="portfolio-box-caption">
               <div class="project-name">
                 Crystal Collector
               </div>
-                    <div class="project-category text-white-50">
-                      A simple click-based game that utilizes JQuery
-                    </div>
+              <div class="project-category text-white-50">
+                A simple click-based game that utilizes JQuery
+              </div>
             </div>
           </a>
         </div>
@@ -169,24 +225,25 @@
               <div class="project-name">
                 JCI Project
               </div>
-                    <div class="project-category text-white-50">
-                        An application that takes data from the Bureau of Labor Statistics to calculate income per ocupation by location
-                    </div>
+              <div class="project-category text-white-50">
+                An application that takes data from the Bureau of Labor Statistics to calculate income per ocupation by
+                location
+              </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://angel2367716.github.io/TriviaGame/">
-              <img class="img-fluid" src="img/portfolio/thumbnails/trivia.jpg" alt="Trivia Game">
-              <div class="portfolio-box-caption">
-                <div class="project-name">
-                  Trivia Game
-                </div>
-                      <div class="project-category text-white-50">
-                          A JavaScript Trivia game that focuses on the use of timing events. 
-                      </div>
+          <a class="portfolio-box" href="https://angel2367716.github.io/TriviaGame/">
+            <img class="img-fluid" src="img/portfolio/thumbnails/trivia.jpg" alt="Trivia Game">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Trivia Game
               </div>
-            </a>
+              <div class="project-category text-white-50">
+                A JavaScript Trivia game that focuses on the use of timing events.
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -196,26 +253,55 @@
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-12 text-center">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project? I'm here to help! feel free to reach out to talk about your website needs.</p>
+          <p class="text-muted mb-5">Ready to start your next project? I'm here to help! feel free to reach out to talk
+            about your website needs.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="#"></a>angel2367716@gmail.com</a>
-          <!--mailto:angel2367716@outlook.com-->
+        <!-- <div class="row"> -->
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="d-block" href="https://github.com/Angel2367716"><i class="fab fa-github fa-3x mb-3"
+              aria-hidden="true"></i></a>
         </div>
 
-        <div class="col-lg-6 mr-auto text-center">
-          <i class="fab fa-linkedin-in fa-3x mb-3" aria-hidden="true"></i>
-          <a class="d-block" href="https://www.linkedin.com/in/marco-angel-37347b184">LinkedIn Profile</a>
+        <div class="col-lg-4 mr-auto text-center">
+          <!-- Trigger/Open The Modal -->
+          <a class="d-block" href="#" class="btn" id="myBtn"><i class="fa fa-envelope fa-3x mb-3" aria-hidden="true"></i></a>
+          
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <form action="mailto:angel2367716@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="d-block" href="https://www.linkedin.com/in/marco-angel-37347b184"><i
+              class="fab fa-linkedin-in fa-3x mb-3" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
+    </div>
+
   </section>
 
   <!-- Footer -->
@@ -224,6 +310,37 @@
       <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
     </div>
   </footer>
+
+
+
+  <script>
+    // Get the modal
+    const modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    const btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    const span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
