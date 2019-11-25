@@ -24,7 +24,7 @@
 
     /* Modal Content */
     .modal-content {
-        background: linear-gradient(to bottom, #{fade-out($clearwater, .9)}0%,#{fade-out($green, .4)}100%);
+        background: linear-gradient(to bottom, #{fade-out($clearwater, .4)}0%,#{fade-out($green, .2)}100%);
     //   background-color: $green;
       margin: auto;
       padding: 20px;
@@ -34,7 +34,8 @@
 
     /* The Close Button */
     .close {
-      color: #aaaaaa;
+    //   color: #aaaaaa;
+    color:$green;
       float: right;
       font-size: 28px;
       font-weight: bold;
