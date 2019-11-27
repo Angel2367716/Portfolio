@@ -1,0 +1,10 @@
+.fa-envelope {
+    color: $green;
+    transition-duration: 100ms;
+    transition: all .2s ease-in-out;
+}
+
+ .fa-envelope:hover{
+color:$clearwater;
+transform: scale(1.7);
+}

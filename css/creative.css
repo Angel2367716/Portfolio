@@ -10804,3 +10804,17 @@ header.masthead h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
+.fa-envelope {
+  color: #7DB46CFF;
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.fa-envelope:hover {
+  color: #ABD6DFFF;
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
+}
