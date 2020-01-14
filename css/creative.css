@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.1.7 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -10817,4 +10817,15 @@ header.masthead h1 {
   color: #ABD6DFFF;
   -webkit-transform: scale(1.7);
   transform: scale(1.7);
+}
+
+.repoBtn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #7DB46CFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
