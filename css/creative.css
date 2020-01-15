@@ -10825,7 +10825,24 @@ header.masthead h1 {
   border: none;
   background-color: #7DB46CFF;
   padding: 14px 28px;
-  font-size: 16px;
+  font-size: 21px;
   cursor: pointer;
   text-align: center;
+}
+
+.repoBtn {
+  color: #fff;
+  background: rgba(125, 180, 108, 0.9);
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  text-align: center;
+}
+
+.repoBtn:hover {
+  color: #7DB46CFF;
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  background-color: #ABD6DFFF;
 }
